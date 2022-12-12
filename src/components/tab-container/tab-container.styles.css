@@ -1,8 +1,18 @@
 .tab-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
   width: 90vw;
-  margin: 20px 20px;
-  height: 500px;
+  margin: 30px auto;
+  height: 90vh;
+  border: 1px #000 solid;
+  border-radius: 5px;
+}
+
+.tab {
+  height: fit-content;
+  width: fit-content;
   border: 1px #000 solid;
   border-radius: 5px;
 }
